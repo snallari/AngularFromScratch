@@ -1,0 +1,14 @@
+Aug 12, 2017 1:14:06 AM com.genuitec.pulse.client.deliverypackage.runtime.internal.Activator initializeLoggers
+INFO: Package starting up at Sat Aug 12 01:14:06 EDT 2017
+Aug 13, 2017 3:29:13 AM org.apache.commons.httpclient.HttpMethodDirector executeWithRetry
+INFO: I/O exception (java.net.SocketException) caught when processing request: Network is down
+Aug 13, 2017 3:29:13 AM org.apache.commons.httpclient.HttpMethodDirector executeWithRetry
+INFO: Retrying request
+Aug 13, 2017 3:29:13 AM org.apache.commons.httpclient.HttpMethodDirector executeWithRetry
+INFO: I/O exception (java.net.SocketException) caught when processing request: Network is down
+Aug 13, 2017 3:29:13 AM org.apache.commons.httpclient.HttpMethodDirector executeWithRetry
+INFO: Retrying request
+Aug 13, 2017 3:29:13 AM org.apache.commons.httpclient.HttpMethodDirector executeWithRetry
+INFO: I/O exception (java.net.SocketException) caught when processing request: Network is down
+Aug 13, 2017 3:29:13 AM org.apache.commons.httpclient.HttpMethodDirector executeWithRetry
+INFO: Retrying request

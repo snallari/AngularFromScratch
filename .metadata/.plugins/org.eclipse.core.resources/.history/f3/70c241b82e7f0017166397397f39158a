@@ -1,0 +1,16 @@
+
+<p>
+	list works!{{title}} <img [src]="imgLink">
+</p>
+<div [class.myClass]="applyClass">Apply Class</div>
+<div [style.color]="applyBlue?'blue':'orange'">This is style
+	binding</div>
+<button (mouseover)="onClick(demo.value)">Click Me</button>
+<input type="Text" #demo>
+<p *ngIf="showElement">showElement</p>
+
+<p [ngClass]="{classOne:cone, classTwo:cTwo}">ngClass paragraph</p>
+
+<ul>
+	<li  *ngFor="let color of colors">{{color}}</li>
+</ul>

@@ -1,0 +1,4 @@
+<p>
+  {{title}}
+  {{hero.name}}
+</p>

@@ -1,0 +1,21 @@
+import { Component, OnInit } from '@angular/core';
+import { FormGroup } from '@angular/forms';
+
+@Component({
+  selector: 'app-reactforms',
+  templateUrl: './reactforms.component.html',
+  styleUrls: ['./reactforms.component.css']
+})
+export class ReactformsComponent implements OnInit {
+  usersForm= new FormGroup({
+     name=new FormControl();
+    
+  });
+
+
+  constructor() { }
+
+  ngOnInit() {
+  }
+
+}

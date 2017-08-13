@@ -1,0 +1,18 @@
+import { Hero } from '../../models/hero';
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'app-herodetails',
+  templateUrl: './herodetails.component.html',
+  styleUrls: ['./herodetails.component.css']
+})
+export class HerodetailsComponent implements OnInit {
+  // creating an instance of Hero object
+  hero: Hero;
+
+  constructor() { }
+
+  ngOnInit() {
+  }
+
+}

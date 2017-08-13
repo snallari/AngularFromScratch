@@ -1,0 +1,26 @@
+import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
+
+import { AppComponent } from './app.component';
+import { ListComponent } from './components/list/list.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms'; // NgModel lives in formsmodule
+import { FormsComponent } from './components/forms/forms.component';
+import { ReactformsComponent } from './components/reactforms/reactforms.component';
+import { HeroComponent } from './components/hero/hero.component';
+import { HerodetailsComponent } from './components/herodetails/herodetails.component';
+import { HeroService } from './service/hero.service';
+
+
+@NgModule({
+  declarations: [
+    AppComponent,
+    ListComponent,
+    FormsComponent, ReactformsComponent, HeroComponent, HerodetailsComponent
+  ],
+  imports: [
+    BrowserModule,  FormsModule, ReactiveFormsModule
+  ],
+  providers: [HeroService],
+  bootstrap: [AppComponent]
+})
+export class AppModule { }
